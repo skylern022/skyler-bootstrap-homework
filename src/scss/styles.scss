@@ -12,10 +12,59 @@
 // Import partials here
 
 
+
 h1{
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron {
+background: url("../img/pirate-ship.jpg") no-repeat center;
+background-size: cover;
+
+h1, p{
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  color: white;
+}
+}
+
+
+h2 {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-.jumbotron jumbotron-fluid {
-background: url('/Users/skylerk22/Documents/icj/skyler-bootstrap-homework/src/img/pirate-ship.jpg');
+h4 {
+  font-family: 'Patrick Hand', cursive;
+}
+
+.container {
+  border-right: 2px grey;
+}
+
+#credit {
+  color: navy;
+  padding-bottom: 0px;
+  margin: 0;
+} 
+#byline {
+  font-style: italic;
+}
+
+footer {
+  background-color: lightgray;
+  text-align: center;
+  width: 100%;
+}
+
+.border-right {
+  color: grey;
+  border-style: solid;
+}
+
+blockquote {
+  border-left: 2px solid lightgrey;
+  padding: 20px ;
+  margin-left: 30px ;
 }
