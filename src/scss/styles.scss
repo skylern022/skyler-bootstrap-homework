@@ -58,13 +58,12 @@ footer {
   width: 100%;
 }
 
-.border-right {
-  color: grey;
-  border-style: solid;
-}
-
 blockquote {
   border-left: 2px solid lightgrey;
   padding: 20px ;
   margin-left: 30px ;
+}
+
+li:hover {
+  text-decoration: underline
 }
